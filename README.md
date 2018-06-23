@@ -15,7 +15,7 @@
 
 for ImageCLEF:
 ```
-CUDA_VISIBLE_DEVICES=0  python bcna_ImageCLEF.py data/image_CLEF -d Office31 -s i -t p -a resnet50 --epochs 10 -i 1000 --seed 0 --log logs/bcna/ImageCLEF_I2P
+CUDA_VISIBLE_DEVICES=0 python bcna_ImageCLEF.py data/image_CLEF -s c -t i -a resnet50 --epochs 10 -i 1000 --seed 1 --log logs/bcna/ImageCLEF_C2I
 ```
 or
 ```
@@ -29,7 +29,7 @@ CUDA_VISIBLE_DEVICES=0  python bcna_officehome.py data/office-home -d OfficeHome
 ```
 or
 ```
-bash run_officehome.sh
+bash run_home.sh
 ```
 
 ### Acknowledgement
