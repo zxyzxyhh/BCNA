@@ -1,0 +1,12 @@
+torch>=1.7.0
+torchvision>=0.5.0
+numpy
+prettytable
+tqdm
+scikit-learn
+webcolors
+matplotlib
+
+[dev]
+Sphinx
+sphinx_rtd_theme

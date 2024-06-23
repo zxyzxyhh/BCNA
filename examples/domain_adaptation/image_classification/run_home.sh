@@ -1,0 +1,12 @@
+python bcna_officehome.py data/office-home -d OfficeHome -s A -t C -a resnet50 --epochs 20 -i 1000 --seed 1  --K 5 --trade-off 0.01 --log logs/bcna/OfficeHome_Ar2Cl_au
+python bcna_officehome.py data/office-home -d OfficeHome -s A -t P -a resnet50 --epochs 20 -i 1000 --seed 1  --K 5 --trade-off 0.01 --log logs/bcna/OfficeHome_Ar2Pr_au
+python bcna_officehome.py data/office-home -d OfficeHome -s A -t R -a resnet50 --epochs 20 -i 1000 --seed 1 --K 5 --trade-off 0.01 --log logs/bcna/OfficeHome_Ar2Rw_au
+python bcna_officehome.py data/office-home -d OfficeHome -s C -t A -a resnet50 --epochs 20 -i 1000 --seed 1  --K 5 --trade-off 0.01 --log logs/bcna/OfficeHome_Cl2Ar_au
+python bcna_officehome.py data/office-home -d OfficeHome -s C -t P -a resnet50 --epochs 20 -i 1000 --seed 1  --K 5 --trade-off 0.01 --log logs/bcna/OfficeHome_Cl2Pr_au
+python bcna_officehome.py data/office-home -d OfficeHome -s C -t R -a resnet50 --epochs 20 -i 1000 --seed 1  --K 5 --trade-off 0.01 --log logs/bcna/OfficeHome_Cl2Rw_au
+python bcna_officehome.py data/office-home -d OfficeHome -s P -t A -a resnet50 --epochs 20 -i 1000 --seed 1  --K 5 --trade-off 0.01 --log logs/bcna/OfficeHome_Pr2Ar_au
+python bcna_officehome.py data/office-home -d OfficeHome -s P -t C -a resnet50 --epochs 20 -i 1000 --seed 1  --K 5 --trade-off 0.01 --log logs/bcna/OfficeHome_Pr2Cl_au
+python bcna_officehome.py data/office-home -d OfficeHome -s P -t R -a resnet50 --epochs 20 -i 1000 --seed 1  --K 5 --trade-off 0.01 --log logs/bcna/OfficeHome_Pr2Rw_au
+python bcna_officehome.py data/office-home -d OfficeHome -s R -t A -a resnet50 --epochs 20 -i 1000 --seed 1  --K 5 --trade-off 0.01 --log logs/bcna/OfficeHome_Rw2Ar_au
+python bcna_officehome.py data/office-home -d OfficeHome -s R -t C -a resnet50 --epochs 20 -i 1000 --seed 1  --K 5 --trade-off 0.01 --log logs/bcna/OfficeHome_Rw2Cl_au
+python bcna_officehome.py data/office-home -d OfficeHome -s R -t P -a resnet50 --epochs 20 -i 1000 --seed 1  --K 5 --trade-off 0.01 --log logs/bcna/OfficeHome_Rw2Pr_au
